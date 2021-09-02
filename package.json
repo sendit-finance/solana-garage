@@ -1,0 +1,39 @@
+{
+  "name": "@sendit-finance/solana-garage",
+  "version": "0.0.1",
+  "description": "Staking, farming, token and utility helpers for Solana",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch --silent=false",
+    "test:ci": "jest --ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sendit-finance/solana-garage.git"
+  },
+  "keywords": [
+    "solana",
+    "utilities",
+    "staking",
+    "tokens"
+  ],
+  "author": "SendIt Finance",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "babel-jest": "^27.0.6",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "@project-serum/borsh": "^0.2.2",
+    "@project-serum/serum": "^0.13.41",
+    "@solana/spl-token-registry": "^0.2.219",
+    "@solana/web3.js": "^1.20.0",
+    "bignumber.js": "^9.0.1",
+    "eventemitter3": "^4.0.7",
+    "install": "^0.13.0",
+    "node-fetch": "^2.6.1",
+    "npm": "^7.19.1"
+  }
+}
